@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 #
 start_time = 0
 end_time = 1
-sample_rate = 100
+sample_rate = 200
 theta = 0
 frequency = 1
 amplitude = 0.5
@@ -55,6 +55,7 @@ sinewave = np.round(sinewave*(2**num_bits))
 fig= plt.figure(figsize=(18,6))
 plt.step(time,sinewave, where='post', label='post')
 plt.plot(time,sinewave, 'o--', color='grey', alpha=0.3)
+plt.grid()
 #plt.plot(time,modwave)
 #plt.plot(time,finalwave)
 #plt.plot(time,audio)
