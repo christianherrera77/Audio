@@ -1,3 +1,7 @@
+###############################################################################
+# Abre um arquivo de áudio com um sinal de voz
+# Normaliza e limita o sinal de voz
+#
 import matplotlib.pyplot as plt
 import numpy as np
 import wave
@@ -64,3 +68,4 @@ ax1[1, 1].grid()
 ax1[1, 1].set_title('signal_processed')
 ax1[1, 1].set_ylim(bottom=-1, top=1)
 plt.show()
+
