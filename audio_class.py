@@ -1,3 +1,6 @@
+###############################################################################
+# Sintetiza um sinal senoidal e plota.
+#
 import pyaudio
 import wave
 import numpy as np
@@ -60,3 +63,4 @@ plt.grid()
 #plt.plot(time,finalwave)
 #plt.plot(time,audio)
 plt.show()
+
