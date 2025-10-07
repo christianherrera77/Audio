@@ -1,3 +1,7 @@
+###############################################################################
+# Abre um arquivo com um sinal de voz e um sinal de ruído 
+# Soma os dois sinais
+#
 import pyaudio
 import wave
 import sounddevice as sd
@@ -66,4 +70,5 @@ ax2[1, 0].set_xlim(left=20, right=10000)
 ax2[1, 0].set_ylim(bottom=-20, top=40)
 ax2[1, 0].grid()
 ax2[1, 0].set_title('ruído')
+
 plt.show()
